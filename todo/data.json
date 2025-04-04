@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Fix UI bug on dashboard",
+      "description": "Resolve the alignment issue with the main navigation bar.",
+      "completed": false,
+      "category": "Bug Fix",
+      "epicId": 101,
+      "epic": {
+        "id": 101,
+        "name": "Dashboard Revamp"
+      },
+      "tags": [
+        { "id": 1, "name": "frontend" },
+        { "id": 2, "name": "ui" }
+      ],
+      "dueDate": "2025-03-30",
+      "priority": "high",
+      "estimatedHours": 5,
+      "progress": 25,
+      "notes": "Review design specs from the UX team.",
+      "createdAt": "2025-03-20T10:00:00Z",
+      "updatedAt": "2025-03-23T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Add dark mode feature",
+      "description": "Implement dark mode toggle across the app.",
+      "completed": false,
+      "category": "Feature",
+      "epicId": null,
+      "tags": [
+        { "id": 3, "name": "enhancement" },
+        { "id": 4, "name": "frontend" }
+      ],
+      "dueDate": "2025-04-10",
+      "priority": "medium",
+      "estimatedHours": 12,
+      "progress": 10,
+      "notes": "Coordinate with the design team for color palette approval.",
+      "createdAt": "2025-03-21T09:00:00Z",
+      "updatedAt": "2025-03-22T14:30:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Database optimization",
+      "description": "Optimize database queries for faster loading times.",
+      "completed": true,
+      "category": "Performance",
+      "epicId": null,
+      "tags": [
+        { "id": 5, "name": "backend" },
+        { "id": 6, "name": "database" }
+      ],
+      "dueDate": null,
+      "priority": "low",
+      "estimatedHours": 8,
+      "progress": 100,
+      "notes": "Added proper indexing to reduce query execution time.",
+      "createdAt": "2025-03-10T08:00:00Z",
+      "updatedAt": "2025-03-15T16:45:00Z"
+    }
+  ]
